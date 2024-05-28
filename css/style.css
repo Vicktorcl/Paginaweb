@@ -1,4 +1,5 @@
 
+
 .footer{
     background-color: lightgray;
 }
@@ -8,7 +9,10 @@ div{
 }
 
 
-h1{text-align: center;}
+h1 {
+    text-align: center;
+}
+
 
 .contra {
       display: flex;
@@ -41,3 +45,10 @@ button, .btn {
     color: red;
     font-weight: bolder;
 }
+
+.carousel-inner img {
+    width: 100%; /* Para que ocupe todo el ancho del contenedor */
+    height: 500px; /* Establece una altura fija */
+    object-fit: cover; /* Para asegurarte de que las imágenes se ajusten al contenedor sin distorsionarse */
+}
+
